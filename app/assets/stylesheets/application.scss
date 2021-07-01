@@ -13,3 +13,38 @@
  *= require_tree .
  *= require_self
  */
+
+@import "bootstrap/scss/bootstrap";
+
+body {
+  margin: 32px;
+}
+
+#letters {
+  display: flex;
+  font-size: 64px;
+  font-family: system-ui;
+  border: none;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 0px 32px 32px 0px;
+  justify-content: space-between;
+  margin-bottom: 32px;
+
+}
+
+.each-letter {
+  width: 32px;
+  height: 32px;
+  padding: 40px;
+  box-shadow: 4px 9px 8px 2px grey;
+  font-size: 32px;
+  color: black;
+  background-color: lightblue;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
